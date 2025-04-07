@@ -1,0 +1,19 @@
+{
+  "name": "wf-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "vitest",
+    "test:e2e": "playwright test",
+    "start": "live-server --port=5500"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
+    "live-server": "^1.2.2",
+    "vitest": "^3.1.1"
+  }
+}
